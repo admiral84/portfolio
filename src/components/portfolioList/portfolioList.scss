@@ -5,6 +5,7 @@
     padding: 7px;
     border-radius: 10px;
     cursor: pointer;
+    overflow: hidden;
     &.active{
         background-color: $mainColor;
         color: white ;

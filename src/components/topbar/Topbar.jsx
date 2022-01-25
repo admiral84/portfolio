@@ -6,7 +6,11 @@ export default function Topbar({menuOpen,setMenuOpen}) {
         <div className={"topbar "+(menuOpen && "active") }>
         <div className="wrapper">
         <div className="left">
-        <a href="#intro" className="logo"> Admiral.</a>  
+        <a href="#intro" className="logo"> 
+         {/* <img src={process.env.PUBLIC_URL + "/assets/logo.png"} alt="logo"/>  
+         <img src={process.env.PUBLIC_URL + "/assets/index.png"} alt="logo"/> */}
+         <img src={process.env.PUBLIC_URL + "/assets/dd.png"} alt="logo"/> 
+        </a>  
         <div className="itemContainer">
             <Person  className="icon"/>
             <span>+216 93 821 429</span>
